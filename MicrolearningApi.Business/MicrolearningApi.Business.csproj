@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicrolearningApi.Model.Business\MicrolearningApi.Model.Business.csproj" />
+    <ProjectReference Include="..\MicrolearningApi.Model.Repository\MicrolearningApi.Model.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
