@@ -1,12 +1,12 @@
 ﻿using MicrolearningApi.Model.Repository;
 
-namespace MicrolearningApi.Data.Repository
+namespace MicrolearningTests.Mocks
 {
-    public class TaxaEntregaRepository : ITaxaEntregaRepository
+    public class TaxaEntregaRepositoryFake : ITaxaEntregaRepository
     {
         private List<TaxaEntrega> ListTaxaEntrega { get; set; }
 
-        public TaxaEntregaRepository()
+        public TaxaEntregaRepositoryFake()
         {
             ListTaxaEntrega = new List<TaxaEntrega>()
             {

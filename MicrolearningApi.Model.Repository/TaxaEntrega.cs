@@ -2,13 +2,15 @@
 {
     public class TaxaEntrega
     {
-        public TaxaEntrega(int cep, decimal percentualTaxa)
+        public TaxaEntrega(int cepInicio, int cepFim, decimal percentualTaxa)
         {
-            Cep = cep;
+            CepInicio = cepInicio;
+            CepFim = cepFim;
             Percentualtaxa = percentualTaxa;
         }
 
-        public int Cep { get; }
+        public int CepInicio { get; }
+        public int CepFim { get; }
         public decimal Percentualtaxa { get; }
     }
 }

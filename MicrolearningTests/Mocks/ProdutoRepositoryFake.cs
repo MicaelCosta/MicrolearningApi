@@ -1,12 +1,12 @@
 ﻿using MicrolearningApi.Model.Repository;
 
-namespace MicrolearningApi.Data.Repository
+namespace MicrolearningTests.Mocks
 {
-    public class ProdutoRepository : IProdutoRepository
+    public class ProdutoRepositoryFake : IProdutoRepository
     {
         private List<Produto> ListProduto { get; set; }
 
-        public ProdutoRepository()
+        public ProdutoRepositoryFake()
         {
             ListProduto = new List<Produto>()
             {

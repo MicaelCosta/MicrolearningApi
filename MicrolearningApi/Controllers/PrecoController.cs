@@ -24,7 +24,7 @@ namespace MicrolearningApi.Controllers
                 return NotFound(new { erro = $"Produto {codigoProduto} não encontrada" });
             }
 
-            return Ok(_precoBusiness);
+            return Ok(retorno);
         }
     }
 }
