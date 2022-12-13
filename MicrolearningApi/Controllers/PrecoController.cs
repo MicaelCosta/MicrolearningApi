@@ -21,7 +21,7 @@ namespace MicrolearningApi.Controllers
             
             if(retorno is null)
             {
-                return NotFound(new { erro = $"Produto {codigoProduto} não encontrada" });
+                return NotFound(new { erro = $"Produto {codigoProduto} não encontrado" });
             }
 
             return Ok(retorno);

@@ -3,11 +3,6 @@ using MicrolearningApi.Controllers;
 using MicrolearningApi.Model.Business;
 using MicrolearningTests.Mocks;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace MicrolearningTests
