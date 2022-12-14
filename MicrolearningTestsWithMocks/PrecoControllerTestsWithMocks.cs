@@ -72,6 +72,8 @@ namespace MicrolearningTestsWithMocks
             var objRes = (PrecoModelView)((OkObjectResult)res).Value;
 
             //Assert
+            taxaMock.Verify(m => m.Obter(It.IsAny<int>()), Times.Once);//Bom para testar metodos que não retornam uma valor
+            taxaMock.Verify(m => m.Obter(It.IsAny<int>()), Times.Exactly(1));//Bom para testar metodos que não retornam uma valor
             Assert.Equal(211.34m, objRes.ValorEntrega);
             Assert.Equal(7044.75m, objRes.ValorProduto);
             Assert.Equal(7256.09m, objRes.PrecoTotal);
