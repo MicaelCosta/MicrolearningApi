@@ -26,8 +26,7 @@ namespace MicrolearningTests
         {
             //Arrange
             var prodMock = new ProdutoRepositoryFake();
-            var taxaMock = new TaxaEntregaRepositoryFake();
-            var precoBusiness = new PrecoBusiness(prodMock, taxaMock);
+            var precoBusiness = new PrecoBusiness(prodMock, null);
             var precoCtrl = new PrecoController(precoBusiness);
 
             //Act
