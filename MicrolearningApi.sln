@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrolearningApi", "MicrolearningApi\MicrolearningApi.csproj", "{4BEF4EA5-C5BB-4090-82BE-832440BA3A04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrolearningApi", "MicrolearningApi\MicrolearningApi.csproj", "{4BEF4EA5-C5BB-4090-82BE-832440BA3A04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrolearningApi.Data.Repository", "MicrolearningApi.Data\MicrolearningApi.Data.Repository.csproj", "{5FE13797-C7C5-42E3-AE22-C0F11D261B39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrolearningApi.Data.Repository", "MicrolearningApi.Data\MicrolearningApi.Data.Repository.csproj", "{5FE13797-C7C5-42E3-AE22-C0F11D261B39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrolearningApi.Model.Repository", "MicrolearningApi.Model.Repository\MicrolearningApi.Model.Repository.csproj", "{5DC31670-3E40-407C-B8AF-A75DF529A51A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrolearningApi.Model.Repository", "MicrolearningApi.Model.Repository\MicrolearningApi.Model.Repository.csproj", "{5DC31670-3E40-407C-B8AF-A75DF529A51A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrolearningApi.Model.Business", "MicrolearningApi.Model.Business\MicrolearningApi.Model.Business.csproj", "{B02B9EEA-42AB-4A06-ABB1-DDA618244F28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrolearningApi.Model.Business", "MicrolearningApi.Model.Business\MicrolearningApi.Model.Business.csproj", "{B02B9EEA-42AB-4A06-ABB1-DDA618244F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrolearningApi.Business", "MicrolearningApi.Business\MicrolearningApi.Business.csproj", "{3B074C91-7DF4-45CA-8B96-8923F85C4D48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrolearningApi.Business", "MicrolearningApi.Business\MicrolearningApi.Business.csproj", "{3B074C91-7DF4-45CA-8B96-8923F85C4D48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrolearningTests", "MicrolearningTests\MicrolearningTests.csproj", "{76D8D65E-0380-4485-9303-305B8BD792CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrolearningTests", "MicrolearningTests\MicrolearningTests.csproj", "{76D8D65E-0380-4485-9303-305B8BD792CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrolearningTestsWithMocks", "MicrolearningTestsWithMocks\MicrolearningTestsWithMocks.csproj", "{146C3EDB-4FE3-41E8-B277-117EDF3D1604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{76D8D65E-0380-4485-9303-305B8BD792CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D8D65E-0380-4485-9303-305B8BD792CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D8D65E-0380-4485-9303-305B8BD792CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146C3EDB-4FE3-41E8-B277-117EDF3D1604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146C3EDB-4FE3-41E8-B277-117EDF3D1604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146C3EDB-4FE3-41E8-B277-117EDF3D1604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146C3EDB-4FE3-41E8-B277-117EDF3D1604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
